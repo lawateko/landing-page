@@ -8,6 +8,11 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: cover;
 }
 
 /* logo dan navigasi bar */
@@ -77,13 +82,44 @@ a {
   height: 300px;
 }
 
-.hero-section .sign-up{
-    padding: 10px 30px;
-    background-color: #3B82F6;
-    border: none;
-    color: white;
-    border-radius: 8px;
-    font-weight: 600;
+.hero-section .sign-up {
+  padding: 10px 30px;
+  background-color: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
 }
 
 /* hero section end */
+
+/* information section */
+
+.information-section .information-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 20px 190px;
+}
+
+.information-section .information-title {
+  font-size: 2.4em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.information-section {
+  margin-bottom: 50px;
+}
+
+.information-section .information-card img {
+  width: 200px;
+  height: 200px;
+}
+
+.information-card .text {
+  width: 200px;
+}
+
+/* information section end */
