@@ -1,4 +1,89 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* font family khusus untuk logo */
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap");
 
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* logo dan navigasi bar */
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border-bottom: 2px solid #dddbdb; */
+  padding: 10px 0;
+  gap: 160px;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  font-family: "Bitcount Grid Double", system-ui;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* logo dan navigasi bar end */
+
+/* hero section */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  height: 450px;
+  gap: 40px;
+}
+
+.hero-text {
+  width: 500px;
+}
+
+.hero-text .sub-hero {
+  font-size: 3.2em;
+  color: white;
+  font-weight: 900;
+}
+
+.hero-text p {
+  color: #b8b8b8;
+  font-size: 1em;
+  line-height: 25px;
+}
+
+.hero-img {
+  width: 430px;
+  height: 300px;
+}
+
+.hero-section .sign-up{
+    padding: 10px 30px;
+    background-color: #3B82F6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* hero section end */
