@@ -21,4 +21,4 @@ All images used in this project are free-to-use and credited to their creators:
 
 ## 🌐 Live Demo
 
-You can view the project online via **GitHub Pages** (link to be added once deployed).
+You can view the project online via **[GitHub Pages](https://lawateko.github.io/landing-page/)** (link to be added once deployed).
