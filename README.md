@@ -1,4 +1,4 @@
-# Web Page Design Project
+# Landing Page Design Project
 
 ## 📖 Description
 
