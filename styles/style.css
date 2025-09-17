@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
 img {
@@ -96,11 +97,13 @@ a {
 /* information section */
 
 .information-section .information-card {
+  padding: 2.8em 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px 190px;
+  flex-wrap: wrap;
+  gap: 25px;
 }
 
 .information-section .information-title {
@@ -114,7 +117,7 @@ a {
 }
 
 .information-section .information-card img {
-  width: 200px;
+  width: 220px;
   height: 200px;
 }
 
@@ -123,3 +126,32 @@ a {
 }
 
 /* information section end */
+
+/* quote section */
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 4.8em 2em;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.quote-text {
+  font-weight: 300;
+  font-size: 32px;
+  width: 900px;
+  text-align: justify;
+}
+
+.author {
+  font-size: 23px;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* quote section end */
